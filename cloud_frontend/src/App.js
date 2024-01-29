@@ -11,6 +11,11 @@ const router=createBrowserRouter([
 
   {
     path:'/',
+    element:<Form_Login/>
+  },
+
+  {
+    path:'/Accueil',
     element:
     <div>
         <Header />
@@ -19,10 +24,7 @@ const router=createBrowserRouter([
       </div>
 
   },
-  {
-    path:'/Login',
-    element:<Form_Login/>
-  },
+ 
   {
     path:'/Culture',
     element:<Form_Culture/>
