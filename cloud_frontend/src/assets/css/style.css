@@ -380,8 +380,9 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   height: 60px;
+  background: rgba(255, 255, 255, 0.181);
+  backdrop-filter: blur(10px); /* Ajustez la valeur de flou selon vos préférences */
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
   padding-left: 20px;
   /* Toggle Sidebar Button */
   /* Search Bar */
@@ -407,7 +408,7 @@ h6 {
     right: 0;
     padding: 20px;
     box-shadow: 0px 0px 15px 0px rgba(1, 41, 112, 0.1);
-    background: white;
+    
     z-index: 9999;
     transition: 0.3s;
     visibility: hidden;
@@ -609,8 +610,9 @@ h6 {
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
-  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.181);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
 @media (max-width: 1199px) {
@@ -686,7 +688,7 @@ h6 {
   font-weight: 600;
   color: #4154f1;
   transition: 0.3;
-  background: #f6f9ff;
+
   padding: 10px 15px;
   border-radius: 4px;
 }
@@ -699,7 +701,6 @@ h6 {
 
 .sidebar-nav .nav-link.collapsed {
   color: #012970;
-  background: #fff;
 }
 
 .sidebar-nav .nav-link.collapsed i {
@@ -708,7 +709,7 @@ h6 {
 
 .sidebar-nav .nav-link:hover {
   color: #4154f1;
-  background: #f6f9ff;
+  background: #f6f9ff4e;
 }
 
 .sidebar-nav .nav-link:hover i {

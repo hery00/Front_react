@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Css/login.css';
+import '../assets/css/login.css';
+import '../Images/back.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Form_Login() {

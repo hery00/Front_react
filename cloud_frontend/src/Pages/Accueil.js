@@ -5,10 +5,9 @@ import SideBar from "../Components/SideBar";
 function Accueil()
 {
     return(
-        <>
-            <Header/>
-            <SideBar/>
-        </>
+        <div>
+            
+        </div>
         
     );
     

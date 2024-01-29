@@ -1,14 +1,39 @@
 // import logo from './logo.svg';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header';
 import SideBar from './Components/SideBar';
+import Form_Login from './Components/Form_Login';
+import Form_Culture from './Components/Form_Culture';
+import List_Parcelle from './Components/List_Parcelle';
 
+const router=createBrowserRouter([
+
+  {
+    path:'/',
+    element:
+    <div>
+        <Header />
+        <SideBar />
+        <List_Parcelle/>
+      </div>
+
+  },
+  {
+    path:'/Login',
+    element:<Form_Login/>
+  },
+  {
+    path:'/Culture',
+    element:<Form_Culture/>
+  }
+
+])
 
 function App() {
   return (
     <>
-        <Header/>
-        <SideBar/>
+        <RouterProvider router={router}/>
     </>
     
   );
